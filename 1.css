@@ -1,0 +1,71 @@
+@font-face {
+    src: url("font/AppleSDGothicNeoB.ttf");
+    font-family: "apple";
+}
+
+body {
+    margin: 0;
+    font-family: "apple";
+}
+img {
+    width: 100vw;
+    height: 670px;
+    z-index: 0;
+}
+.img_box {
+    position: relative;
+    height: 670px;
+}
+.box {
+    margin-bottom: -50px;
+    position: relative;
+    bottom: 70px;
+    height: 53px;
+    font-size: large;
+    font-weight: lighter;
+    color: rgb(204, 204, 204);
+}
+.login_link {
+    position: relative;
+    top: -64px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.login_box {
+    width: 370px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_link {
+    position: relative;
+    top: -55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.signup_box {
+    width: 370px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:link {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(204, 204, 204);
+    text-decoration: underline;
+}

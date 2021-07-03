@@ -1,0 +1,103 @@
+@font-face {
+    src: url("font/AppleSDGothicNeoB.ttf");
+    font-family: "apple";
+}
+.box {
+    height: 844px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.nav-bar-community {
+    height: 30px;
+    width: 100vw;
+    background-color: rgb(236, 232, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    font-size:20px;
+}
+.nav-bar-community > :nth-child(1) {
+    margin-left: 20px;
+}
+.nav-bar-community > :nth-child(3) {
+    margin-right: 20px;
+    width: 27px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "apple";
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.chatroom{
+    display: grid;
+    grid-template-columns: 0.2fr 7.2fr 1.8fr;
+    height: 70px;
+    margin-bottom:20px;
+}
+.chatA{
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    background-color: white;
+    margin-right: 10px;
+    height:70px;
+    width:70px;
+}
+.chatA>:nth-child(1){
+    height: 60px;
+    width:60px;
+}
+.chatTitle{
+    font-size:20px;
+}
+.chatContents{
+    font-size:14px;
+    color:gray;
+}
+.redDot{
+    color:red;
+    margin-left:5px;
+}
+.chatB{
+    display: flex;
+    flex-direction: column;
+}
+.chatB1{
+    display: flex;
+    flex-direction: row;
+}
+.chatC{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:18px;
+}
+.footer {
+    height: 55px;
+    background-color: black;
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.footer > :nth-child(1) {
+    margin-left: 20px;
+}
+.footer > :nth-child(3) {
+    margin-top: 5px;
+    margin-right: 20px;
+}

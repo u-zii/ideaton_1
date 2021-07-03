@@ -1,0 +1,103 @@
+@font-face {
+    src: url("font/AppleSDGothicNeoB.ttf");
+    font-family: "apple";
+}
+.box {
+    height: 844px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.nav-bar {
+    height: 30px;
+    width: 100vw;
+    background-color: rgb(236, 232, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+.nav-bar > :nth-child(1) {
+    margin-left: 20px;
+}
+.nav-bar > :nth-child(3) {
+    margin-right: 20px;
+    width: 27px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "apple";
+}
+.course {
+    display: grid;
+    grid-template-columns: 2fr 5.6fr 1.2fr 1.2fr;
+    height: 80px;
+    font-size: 18px;
+}
+.course>:nth-child(2){
+    font-size:12px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.과목명 {
+    border: solid 1px black;
+    border-radius: 3px;
+    width: 150px;
+    text-align: center;
+    height: 25px;
+    margin-left: 20px;
+}
+.회차 {
+    border: solid 1px black;
+    border-radius: 3px;
+    height: 25px;
+    width: 110px;
+    text-align: center;
+}
+.buttons > :nth-child(2) > :nth-child(1) {
+    /*출석확인*/
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 112px;
+}
+.주차 {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.footer {
+    height: 55px;
+    background-color: black;
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.footer > :nth-child(1) {
+    margin-left: 20px;
+}
+.footer > :nth-child(3) {
+    margin-top: 5px;
+    margin-right: 20px;
+}

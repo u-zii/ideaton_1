@@ -28,6 +28,10 @@
     margin-right: 20px;
     width: 27px;
 }
+.nav-bar > :nth-child(2) > img {
+    width: 80px;
+    height: 20px;
+}
 body {
     padding: 0;
     margin: 0;
@@ -39,8 +43,8 @@ body {
     height: 80px;
     font-size: 18px;
 }
-.course>:nth-child(2){
-    font-size:12px;
+.course > :nth-child(2) {
+    font-size: 12px;
 }
 .buttons {
     display: flex;
@@ -56,23 +60,23 @@ body {
     width: 150px;
     text-align: left;
     height: 25px;
-    font-size:20px;
-    margin-bottom:5px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
-.온오프{
-    margin-left:5px;
-    margin-top:5px;
-    margin-right:5px;
-    font-size:12px;
+.온오프 {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 12px;
     display: flex;
     flex-direction: cloumn;
 }
-.온오프 >:nth-child(1){
-    color:gray;
-    margin-right:15px;
+.온오프 > :nth-child(1) {
+    color: gray;
+    margin-right: 15px;
 }
-.gray{
-    color:gray;
+.gray {
+    color: gray;
 }
 .회차 {
     border: solid 1px black;

@@ -11,6 +11,9 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.nav-bar-flex {
+    padding-top: 3px;
+}
 .nav-bar-community {
     height: 30px;
     width: 100vw;
@@ -20,68 +23,69 @@
     padding-top: 13px;
     padding-bottom: 7px;
 }
-.nav-bar-community > :nth-child(1) { 
+.nav-bar-community > :nth-child(1) {
     margin-left: 10px;
     font-size: 21px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 .nav-bar-community > :nth-child(2) {
     margin-right: 20px;
-    font-size: 21px;
+    font-size: 14px;
     align-items: bottom;
 }
-.nav-bar-community > :nth-child(3) { 
+.nav-bar-community > :nth-child(3) {
     margin-right: 20px;
     font-size: 15px;
-    text-align:left;
+    text-align: left;
     vertical-align: bottom;
+    padding-top: 2px;
 }
 .nav-bar-community > :nth-child(4) {
     margin-right: 20px;
-    height:30px;
+    height: 30px;
 }
 body {
     padding: 0;
     margin: 0;
     font-family: "apple";
 }
-.list{
+.list {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-top: 10px;
 }
-.chat{
+.chat {
     display: grid;
     grid-template-columns: 0.5fr 8.5fr 1fr;
     height: 70px;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
-.chat>:nth-child(1){
+.chat > :nth-child(1) {
     margin-right: 10px;
-    height:60px;
+    height: 60px;
 }
-.chatTitle{
-    font-size:14px;
+.chatTitle {
+    font-size: 14px;
 }
-.chatContents{
-    font-size:16px;
-    width:210px;
+.chatContents {
+    font-size: 16px;
+    width: 210px;
     border: 2px solid gray;
     border-radius: 5px;
-    padding:4px;
+    padding: 4px;
 }
-.redDot{
-    color:red;
+.redDot {
+    color: red;
 }
-.chatB{
+.chatB {
     display: flex;
     flex-direction: cloumn;
 }
-.chatC{
+.chatC {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 .footer_chat {
     height: 55px;
@@ -97,16 +101,16 @@ body {
 }
 .footer_chat > :nth-child(1) {
     margin-left: 20px;
-    height:50px;
+    height: 50px;
 }
-.txtbox{
-    width:350px;
+.txtbox {
+    width: 350px;
     border-radius: 60px;
-    height:40px;
+    height: 40px;
 }
 .footer_chat > :nth-child(3) {
     margin-top: 5px;
     margin-right: 20px;
     margin-bottom: 10px;
-    height:50px;
+    height: 50px;
 }
